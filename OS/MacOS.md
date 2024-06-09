@@ -208,7 +208,7 @@
 |      `brew services list`      |        查看所有服务        |
 |   `brew services run [name]`   |        运行某个服务        |
 |  `brew services start [name]`  | 运行并设置开机运行某个服务 |
-|  `breew services stop [name]`  |        停止某个服务        |
+|  `brew services stop [name]`   |        停止某个服务        |
 | `brew services restart [name]` |        重启某个服务        |
 
 **Homebrew管理：**
@@ -218,6 +218,48 @@
 | `brew update` |   更新Homebrew   |
 | `brew doctor` | 检查Homebrew环境 |
 
+# 【终端】
+
+> 常用的终端命令
+
+## 目录操作
+
+|         命令         |                    作用                     |
+| :------------------: | :-----------------------------------------: |
+|        `pwd`         |                显示当前目录                 |
+|         `ls`         | 列出当前目录内容，`-la`显示隐藏且以表格显示 |
+|         `cd`         |   进入目录，`./`当前目录，`..`上一级目录    |
+|    `mkdir [name]`    |                 创建文件夹                  |
+|    `mv [n1] [n2]`    |     移动文件，同级目录移动会执行重命名      |
+| `cp [file1] [file2]` |       复制file1到file2，递归复制`-R`        |
+|     `rm [file]`      | 删除file，`-f`强制删除不提示，`-R`递归删除  |
+|       `du -sh`       |            查看文件、目录的大小             |
+|   `man [command]`    |              查看命令帮助信息               |
 
 
-# 
+
+## 文件操作
+
+|           命令            |                   作用                    |
+| :-----------------------: | :---------------------------------------: |
+|      `touch [file]`       |                 创建文件                  |
+|       `open [file]`       |                 打开文件                  |
+|       `vim [file]`        |                 编辑文件                  |
+| `find [dir] -name "file"` | 按照名称搜索文件（支持正则，路径以/结尾） |
+|          快捷键⬇️          |                                           |
+|        `Control+C`        |               中断命令执行                |
+|        `Control+A`        |                 返回行首                  |
+|        `Control+E`        |                 返回行尾                  |
+
+
+
+## 网络操作
+
+|       命令       |         作用          |
+| :--------------: | :-------------------: |
+| `ping [ip/域名]` |       检测连接        |
+|    `ifconfig`    | 查看/配置网络接口信息 |
+|  `networksetup`  |                       |
+|    `ipconfig`    |                       |
+|                  |                       |
+
